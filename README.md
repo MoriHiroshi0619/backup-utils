@@ -7,13 +7,13 @@
 
 <p>Plugin para o terminal linux, substitui o shell `bash` pelo `zsh`.
 <br>O arquivo de configuração importa todos os comandos bash para serem compatíveis no novo shell zsh
-<br>Ainda é necessarios seguir a documentação para instalação das dependências</p>
+<br>&#128721;Ainda é necessarios seguir a documentação para instalação das dependências</p>
 
 <hr>
 <h2>&#128433; logid</h2>
 
 <a href="https://github.com/PixlOne/logiops">Documentação</a>
 
-<p>Driver open-source criado por um santo para oferecer suporte de gestos dos mouses da linha 'MX' da Logitech em sistemas linux.
+<p>Driver open-source criado por um santo para oferecer suporte a gestos dos mouses da linha 'MX' da Logitech em sistemas linux.
 <br>O arquivo de configuração salva os gestos rastreados para teclas de atalho do Ubuntu
-<br>Ainda é necessarios seguir a documentação para instalação das dependências</p>
+<br>&#128721;Ainda é necessarios seguir a documentação para instalação das dependências</p>
