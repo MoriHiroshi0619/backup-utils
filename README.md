@@ -1,28 +1,32 @@
-<h1>&#128451; Backup de arquivos de configuração</h1>
+# &#128451; Backup de arquivos de configuração
 
-<hr>
-<h2>&#128421; oh my zsh</h2>
+---
 
-<a href="https://ohmyz.sh/">Documentação</a>
+## &#128421; oh my zsh
 
-<p>Plugin para o terminal linux, substitui o shell `bash` pelo `zsh`.
-<br>O arquivo de configuração importa todos os comandos bash para serem compatíveis no novo shell zsh
-<br>&#128721;Ainda é necessarios seguir a documentação para instalação das dependências</p>
+[Documentação](https://ohmyz.sh/)
 
-<hr>
-<h2>&#128433; logid</h2>
+Plugin para o terminal Linux, substitui o shell `bash` pelo `zsh`.  
+O arquivo de configuração importa todos os comandos bash para serem compatíveis no novo shell `zsh`.  
+&#128721; Ainda é necessário seguir a documentação para instalação das dependências.
 
-<a href="https://github.com/PixlOne/logiops">Documentação</a>
+---
 
-<p>Driver open-source criado por um santo para oferecer suporte a gestos dos mouses da linha 'MX' da Logitech em sistemas linux.
-<br>O arquivo de configuração salva os gestos rastreados para teclas de atalho do Ubuntu
-<br>&#128721;Ainda é necessarios seguir a documentação para instalação das dependências</p>
+## &#128433; logid
 
-<hr>
-<h2>&#9000; Micro</h2>
+[Documentação](https://github.com/PixlOne/logiops)
 
-<a href="https://github.com/zyedidia/micro">Documentação</a>
+Driver open-source criado por um santo para oferecer suporte a gestos dos mouses da linha 'MX' da Logitech em sistemas Linux.  
+O arquivo de configuração salva os gestos rastreados para teclas de atalho do Ubuntu.  
+&#128721; Ainda é necessário seguir a documentação para instalação das dependências.
 
-<p>Plugin open-source para terminais. Substitui o Nano como editor default do terminal
-<br>Copie o arquivo bashrc depois recarregue o bash com ```source ~/.bashrc```. Como o oh my zsh pega do bash os comandos, rode tbm um ```source ~/.zshrc```
-<br>&#128721;Ainda é necessarios seguir a documentação para instalação das dependências</p>
+---
+
+## &#9000; Micro
+
+[Documentação](https://github.com/zyedidia/micro)
+
+Plugin open-source para terminais. Substitui o Nano como editor default do terminal.  
+Copie o arquivo `~/.bashrc` e depois recarregue o bash com `source ~/.bashrc`.  
+Como o oh-my-zsh pega do bash os comandos, rode também um `source ~/.zshrc`.  
+&#128721; Ainda é necessário seguir a documentação para instalação das dependências.
