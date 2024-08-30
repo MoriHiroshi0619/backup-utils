@@ -27,6 +27,6 @@ O arquivo de configuração salva os gestos rastreados para teclas de atalho do 
 [Documentação](https://github.com/zyedidia/micro)
 
 Plugin open-source para terminais. Substitui o Nano como editor default do terminal.  
-Copie o arquivo `~/.bashrc` e depois recarregue o bash com `source ~/.bashrc`.  
+Copie o arquivo 'bashrc' em `~/.bashrc` e depois recarregue o bash com `source ~/.bashrc`.  
 Como o oh-my-zsh pega do bash os comandos, rode também um `source ~/.zshrc`.  
 &#128721; Ainda é necessário seguir a documentação para instalação das dependências.
