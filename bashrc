@@ -121,6 +121,6 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 
-#tentativa de adicianar o micro como editor de texto default do terminal
+#adiciana o micro como editor de texto default do terminal
 export EDITOR='micro'
 export VISUAL='micro'
