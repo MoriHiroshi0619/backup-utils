@@ -1,21 +1,22 @@
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-#Carrega scritps do bash para o zsh
-#if [ -f ~/.bash_profile ]; then
-#    source ~/.bash_profile
-#fi
-#
-#if [ -f ~/.bashrc ]; then
-#    source ~/.bashrc
-#fi
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+
+#Carrega scripts do bash para o zsh
+if [ -f ~/.bash_profile ]; then
+    source ~/.bash_profile
+fi
+
+if [ -f ~/.bashrc ]; then
+    source ~/.bashrc
+fi
 
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
+#export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
