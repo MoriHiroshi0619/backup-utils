@@ -59,7 +59,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
+#ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # You can also set it to another string to have that shown instead of the default red dots.
@@ -123,3 +123,13 @@ source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+#tira as mensagens de aviso ao iniciar cada terminal
+#typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
+
+# ALIASES CUSTOMIZADOS
+
+alias dup='docker compose up -d'
+alias ddown='docker compose down'
+alias tailscale='tailscale'
+alias tc='tailscale'
