@@ -127,6 +127,25 @@ source $ZSH/oh-my-zsh.sh
 #tira as mensagens de aviso ao iniciar cada terminal
 #typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
 
+
+gitlog() {
+  # Verifica se o diretório é um repositório Git
+  if git rev-parse --is-inside-work-tree &>/dev/null; then
+    # Obtém a branch atual
+    current_branch=$(git rev-parse --abbrev-ref HEAD)
+
+    # Constrói o comando com ou sem o --oneline
+    if [[ "$1" == "--oneline" ]]; then
+      git log master..HEAD "$current_branch" --oneline
+    else
+      git log master..HEAD "$current_branch"
+    fi
+  else
+    # Mostra mensagem se não estiver em um repositório Git
+    echo "Erro: Este diretório não é um repositório Git."
+  fi
+}
+
 # ALIASES CUSTOMIZADOS
 
 alias dup='docker compose up -d'
@@ -134,3 +153,5 @@ alias ddown='docker compose down'
 alias tailscale='tailscale'
 alias tc='tailscale'
 alias wip='ip addr show | grep "inet "'
+export PATH="/home/hiroshi/.config/herd-lite/bin:$PATH"
+export PHP_INI_SCAN_DIR="/home/hiroshi/.config/herd-lite/bin:$PHP_INI_SCAN_DIR"
