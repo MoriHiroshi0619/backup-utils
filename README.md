@@ -25,7 +25,7 @@ O arquivo de configuração salva os gestos rastreados para teclas de atalho do 
   ```bash
   sudo nano /etc/logid.cfg
   ```
-  copie e cole o conteudo salvo nesse repositório salvo em `backup-utils/mx-master-3/logid.cfg`
+  copie e cole o conteudo salvo nesse repositório em `backup-utils/mx-master-3/logid.cfg`
   <br>PS: caso o scroll do mouse fique muito rápido ou muito lento, tente modificar as linhas
   ``` bash
   hiresscroll:
