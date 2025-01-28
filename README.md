@@ -19,6 +19,27 @@ O arquivo de configuração importa todos os comandos bash para serem compatíve
 Driver open-source criado por um santo para oferecer suporte a gestos dos mouses da linha 'MX' da Logitech em sistemas Linux.  
 O arquivo de configuração salva os gestos rastreados para teclas de atalho do Ubuntu.  
 &#128721; Ainda é necessário seguir a documentação para instalação das dependências.
+<br> Após seguir a documentação e instalar o driver no sistema, para configurar o driver siga os passo
+
+- crie o arquivo de configuração
+  ```bash
+  sudo nano /etc/logid.cfg
+  ```
+  copie e cole o conteudo salvo nesse repositório salvo em `backup-utils/mx-master-3/logid.cfg`
+  <br>PS: caso o scroll do mouse fique muito rápido ou muito lento, tente modificar as linhas
+  ``` bash
+  hiresscroll:
+    {
+        hires: true;
+        invert: false;
+        target: false;
+    };
+  ```
+- reinicie o serviço para ver as mudanças sendo aplicadas
+  ```bash
+  sudo systemctl restart logid.service
+  ```
+
 
 ---
 
