@@ -133,12 +133,13 @@ gitlog() {
   if git rev-parse --is-inside-work-tree &>/dev/null; then
     # Obtém a branch atual
     current_branch=$(git rev-parse --abbrev-ref HEAD)
-
+	main_branch=$(git remote show origin | grep "HEAD branch" | awk '{print $3}')
+	
     # Constrói o comando com ou sem o --oneline
     if [[ "$1" == "--oneline" ]]; then
-      git log master..HEAD "$current_branch" --oneline
+      git log "$main_branch"..HEAD "$current_branch" --oneline
     else
-      git log master..HEAD "$current_branch"
+      git log "$main_branch"..HEAD "$current_branch"
     fi
   else
     # Mostra mensagem se não estiver em um repositório Git
