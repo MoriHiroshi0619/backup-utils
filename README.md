@@ -8,6 +8,10 @@
 
 Plugin para o terminal Linux, substitui o shell `bash` pelo `zsh`.  
 O arquivo de configuração importa todos os comandos bash para serem compatíveis no novo shell `zsh`.  
+comando para reconfigurar o powerlevel10k (tema)
+```bash
+p10k configure
+```
 &#128721; Ainda é necessário seguir a documentação para instalação das dependências.
 
 ---
