@@ -1,0 +1,22 @@
+[
+  {
+    "command": "toggleSideBar",
+    "accelerator": "Ctrl+Shift+["
+  },
+  {
+    "command": "toggleMenuBar",
+    "accelerator": "Ctrl+Shift+\\"
+  },
+  {
+    "command": "toggleNoteList",
+    "accelerator": "Ctrl+Shift+]"
+  },
+  {
+    "command": "jop-freehand-drawing-jsdraw-plugin-insertDrawing",
+    "accelerator": null
+  },
+  {
+    "command": "CreateBackup",
+    "accelerator": null
+  }
+]
